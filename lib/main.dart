@@ -14,20 +14,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     //Data Types in dart
 
+    // ignore: unused_local_variable
     int days = 30;
     double pii = 3.14;
-    bool isMAle = true;
+    bool isMale = true;
     num temp = 30; //we can use it for both float and integer:
     String name = "Ankur kasaudhna";
     var day =
-"tuesday"; //we can use for any data type compiler will decide whether it is (integer float string) ...and so on
+        "tuesday"; //we can use for any data type compiler will decide whether it is (integer float string) ...and so on
     const pi = 3.14; //we can not change const value
 
-    
-
     return MaterialApp(
-      
-      home:HomePage(),
+      home: HomePage(),
     );
   }
 }

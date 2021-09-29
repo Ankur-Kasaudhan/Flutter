@@ -9,13 +9,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    int days = 30;
+
     return MaterialApp(
       // ignore: avoid_unnecessary_containers
       home: Material(
         child: Center(
           // ignore: avoid_unnecessary_containers
           child: Container(
-            child: const Text("Welcome to the App"),
+            child: Text('Welcome to $days the App'),
           ),
         ),
       ),

@@ -24,18 +24,17 @@ class MyApp extends StatelessWidget {
     const pi = 3.14; //we can not change const value
 
     return MaterialApp(
-    
       themeMode: ThemeMode.light, //theme
       theme: ThemeData(primarySwatch: Colors.deepOrange),
       darkTheme: ThemeData(
         brightness: Brightness.dark,
       ),
 
-      initialRoute: "/home",
-      routes:{
-        "/":(context)=>LoginPage(),     //creating pages for the app
-        "/home":(context)=>HomePage(),
-        "/login" :(context)=>LoginPage()
+      initialRoute: "/login",
+      routes: {
+        "/": (context) => LoginPage(), //creating pages for the app
+        "/home": (context) => HomePage(),
+        "/login": (context) => LoginPage()
       },
     );
   }

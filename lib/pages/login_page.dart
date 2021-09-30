@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, avoid_print
 
 import 'package:flutter/material.dart';
 
@@ -44,7 +44,7 @@ class LoginPage extends StatelessWidget {
                   ),
                   ElevatedButton(
                     onPressed: () {
-                      print("Hi Ankur"),
+                      print("Hi Ankur");
                     },
                     style: TextButton.styleFrom(),
                     child: Text("Login"),

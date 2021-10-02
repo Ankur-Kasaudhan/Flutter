@@ -1,9 +1,10 @@
-// ignore_for_file: prefer_const_constructors, unused_local_variable
+// ignore_for_file: prefer_const_constructors, unused_local_variable, deprecated_member_use
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/pages/home_page.dart';
 import 'package:flutter_application_2/pages/login_page.dart';
 import 'package:flutter_application_2/utiles/routes.dart';
+import 'package:flutter_application_2/widgets/themes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,10 +27,8 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       themeMode: ThemeMode.light, //theme
-      theme: ThemeData(primarySwatch: Colors.deepOrange),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark,
-      ),
+      theme: MyTheme.lightTheme(context),
+      darkTheme: MyTheme.DarkTheme(context),
       debugShowCheckedModeBanner: false, //removing Debug Banner
 
       initialRoute: MyRoutes.homeRoute,

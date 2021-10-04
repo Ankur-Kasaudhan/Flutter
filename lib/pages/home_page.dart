@@ -16,7 +16,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final int days = 30;
-  final String name = "Ankur kasaudhan";
+  final String name = "Ankur kasaudhan" ;
   @override
   void initState() {
     super.initState();

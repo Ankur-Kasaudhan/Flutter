@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 12 pro",
+            "desc": "Apple iPhone 12th generation",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://shop.jtglobal.com/wp-content/uploads/2020/10/iphone-12-blue.jpg"
+        },
+        {
+            "id": 2,
+            "name": "poco x2",
+            "desc": "Android Phone",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://shop.jtglobal.com/wp-content/uploads/2020/10/iphone-12-blue.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Pixel 5",
+            "desc": "Apple iPhone 12th generation",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://shop.jtglobal.com/wp-content/uploads/2020/10/iphone-12-blue.jpg"
+        },
+        {
+            "id": 4,
+            "name": "iPhone 12 pro",
+            "desc": "Apple iPhone 12th generation",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://shop.jtglobal.com/wp-content/uploads/2020/10/iphone-12-blue.jpg"
+        },
+        {
+            "id": 5,
+            "name": "iMac book Air",
+            "desc": "Apple laptop",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://shop.jtglobal.com/wp-content/uploads/2020/10/iphone-12-blue.jpg"
+        },
+        {
+            "id": 6,
+            "name": "OnePlus 9 pro",
+            "desc": "Android phone",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://shop.jtglobal.com/wp-content/uploads/2020/10/iphone-12-blue.jpg"
+        },
+        {
+            "id": 7,
+            "name": "iPhone 12 pro",
+            "desc": "Apple iPhone 12th generation",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://shop.jtglobal.com/wp-content/uploads/2020/10/iphone-12-blue.jpg"
+        },
+        {
+            "id": 8,
+            "name": "iPhone 12 pro",
+            "desc": "Apple iPhone 12th generation",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://shop.jtglobal.com/wp-content/uploads/2020/10/iphone-12-blue.jpg"
+        },
+        {
+            "id": 9,
+            "name": "iPhone 12 pro",
+            "desc": "Apple iPhone 12th generation",
+            "price": 9999,
+            "color": "#33505a",
+            "image": "https://shop.jtglobal.com/wp-content/uploads/2020/10/iphone-12-blue.jpg"
+        }
+    ]
+}

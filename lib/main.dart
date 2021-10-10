@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, unused_local_variable, deprecated_member_use, invalid_language_version_override
 // @dart=2.9
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/pages/cart_page.dart';
 import 'package:flutter_application_2/pages/home_page.dart';
 import 'package:flutter_application_2/pages/login_page.dart';
 import 'package:flutter_application_2/utiles/routes.dart';
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
       routes: {
         "/": (context) => LoginPage(), //creating pages for the app
         MyRoutes.homeRoute: (context) => HomePage(),
-        MyRoutes.loginRoute: (context) => LoginPage()
+        MyRoutes.loginRoute: (context) => LoginPage(),
+        MyRoutes.cartRoute: (context) => CartPage()
       },
     );
   }

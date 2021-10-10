@@ -27,12 +27,14 @@ class HomeDetailsPage extends StatelessWidget {
                           backgroundColor: MaterialStateProperty.all(
                               MyTheme.darkBluishColor),
                           shape: MaterialStateProperty.all(StadiumBorder())),
-                      child: "Buy".text.xl.make())
-                  .wh(100, 50)
+                      child: "Add to Cart".text.xl.make())
+                  .wh(150, 50)
             ],
           ).p32(),
         ),
-        appBar: AppBar(),
+        appBar: AppBar(
+          backgroundColor: Colors.transparent,
+        ),
         backgroundColor: MyTheme.creamColor,
         body: SafeArea(
           bottom: false,
@@ -61,6 +63,11 @@ class HomeDetailsPage extends StatelessWidget {
                           .xl
                           .make(),
                       10.heightBox,
+                      "nhf hfyuue nchuueo nchyroe mnchuie oowlaiudud bvhnfy mncjyeoo nhf hfyuue nchuueo nchyroe mnchuie oowlaiudud bvhnfy mncjyeoo nhf hfyuue nchuueo nchyroe mnchuie oowlaiudud bvhnfy mncjyeoo nhf hfyuue nchuueo nchyroe mnchuie oowlaiudud bvhnfy mncjyeoo nhf hfyuue nchuueo nchyroe mnchuie oowlaiudud bvhnfy mncjyeoo nhf hfyuue nchuueo nchyroe mnchuie oowlaiudud bvhnfy mncjyeoo nhf hfyuue nchuueo nchyroe mnchuie oowlaiudud bvhnfy mncjyeoo nhf hfyuue nchuueo nchyroe mnchuie oowlaiudud bvhnfy mncjyeoo"
+                          .text
+                          .textStyle(context.captionStyle)
+                          .make()
+                          .p16(),
                     ],
                   ).py64(),
                 ),

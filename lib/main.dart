@@ -27,12 +27,12 @@ class MyApp extends StatelessWidget {
     const pi = 3.14; //we can not change const value
 
     return MaterialApp(
-      themeMode: ThemeMode.light, //theme
+      themeMode: ThemeMode.system, //theme
       theme: MyTheme.lightTheme(context),
-      darkTheme: MyTheme.DarkTheme(context),
+      darkTheme: MyTheme.darkTheme(context),
       debugShowCheckedModeBanner: false, //removing Debug Banner
 
-      initialRoute: MyRoutes.homeRoute,
+      initialRoute: MyRoutes.loginRoute,
       routes: {
         "/": (context) => LoginPage(), //creating pages for the app
         MyRoutes.homeRoute: (context) => HomePage(),

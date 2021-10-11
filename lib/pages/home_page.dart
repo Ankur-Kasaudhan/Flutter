@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_declarations, prefer_const_constructors, avoid_unnecessary_containers, unused_local_variable, avoid_print, unused_import, unnecessary_null_comparison, import_of_legacy_library_into_null_safe, use_key_in_widget_constructors, prefer_const_literals_to_create_immutables
+// ignore_for_file: prefer_const_declarations, prefer_const_constructors, avoid_unnecessary_containers, unused_local_variable, avoid_print, unused_import, unnecessary_null_comparison, import_of_legacy_library_into_null_safe, use_key_in_widget_constructors, prefer_const_literals_to_create_immutables, deprecated_member_use
 
 import 'dart:convert';
 
@@ -46,11 +46,14 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: MyTheme.creamColor,
+        backgroundColor: context.canvasColor,
         floatingActionButton: FloatingActionButton(
           onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
-          backgroundColor: MyTheme.darkBluishColor,
-          child: Icon(CupertinoIcons.cart),
+          backgroundColor: context.theme.buttonColor,
+          child: Icon(
+            CupertinoIcons.cart,
+            color: Colors.white,
+          ),
         ),
         body: SafeArea(
           child: Container(

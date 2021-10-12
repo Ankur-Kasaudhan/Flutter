@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, avoid_print, unused_import, unused_field, deprecated_member_use
+// ignore_for_file: prefer_const_constructors, avoid_print, unused_import, unused_field, deprecated_member_use, import_of_legacy_library_into_null_safe
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/utiles/routes.dart';

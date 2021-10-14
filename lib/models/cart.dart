@@ -3,6 +3,9 @@
 import 'package:flutter_application_2/models/catalog.dart';
 
 class CartModel {
+  static final cartModel = CartModel._internal();
+  CartModel._internal();
+  factory CartModel() => cartModel;
   //catalog feild
   late CatalogModel _catalog;
 

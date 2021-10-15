@@ -1,14 +1,16 @@
-// ignore_for_file: prefer_const_constructors, unused_local_variable, deprecated_member_use, invalid_language_version_override
+// ignore_for_file: prefer_const_constructors, unused_local_variable, deprecated_member_use, invalid_language_version_override, missing_required_param
 // @dart=2.9
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/core/store.dart';
 import 'package:flutter_application_2/pages/cart_page.dart';
 import 'package:flutter_application_2/pages/home_page.dart';
 import 'package:flutter_application_2/pages/login_page.dart';
 import 'package:flutter_application_2/utiles/routes.dart';
 import 'package:flutter_application_2/widgets/themes.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(VxState(store: MyStore(),child:MyApp()));
 }
 
 class MyApp extends StatelessWidget {

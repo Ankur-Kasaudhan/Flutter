@@ -1,4 +1,4 @@
-// ignore_for_file: import_of_legacy_library_into_null_safe, deprecated_member_use, prefer_const_constructors
+// ignore_for_file: import_of_legacy_library_into_null_safe, deprecated_member_use, prefer_const_constructors, prefer_const_constructors_in_immutables
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +18,7 @@ class AddToCart extends StatelessWidget {
   Widget build(BuildContext context) {
     VxState.listen(context, to: [AddMutation]);
     final CartModel _cart = (VxState.store as MyStore).cart;
-    bool isInCart = _cart.items.contains(catalog) ?? false;
+    bool isInCart = _cart.items.contains(catalog);
     return ElevatedButton(
         onPressed: () {
           if (!isInCart) {

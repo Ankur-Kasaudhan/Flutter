@@ -1,4 +1,4 @@
-// ignore_for_file: unused_field, non_constant_identifier_names, unnecessary_null_comparison
+// ignore_for_file: unused_field, non_constant_identifier_names, unnecessary_null_comparison, import_of_legacy_library_into_null_safe
 
 import 'package:flutter_application_2/core/store.dart';
 import 'package:flutter_application_2/models/catalog.dart';

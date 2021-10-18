@@ -29,7 +29,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  velocity_x: ^1.4.1  
+  velocity_x: ^1.4.1
+  http: ^0.13.0  
 
 
   # The following adds the Cupertino Icons font to your application.
